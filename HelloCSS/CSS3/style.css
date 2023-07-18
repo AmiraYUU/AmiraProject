@@ -1,0 +1,70 @@
+/* div  {
+    border-color: transparent green transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+    width: 0px;
+    height: 0px;
+} */
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.chatOdd img {
+    float: left;
+}
+
+.chatEven img {
+    float: right;
+}
+
+.textLeft{
+    height: 60px;
+    margin: 20px  79.1px;
+    padding: 10px 10px 5px 10px;
+    border-radius: 25px;
+}
+
+.textRight {
+    height: 60px;
+    margin: 20px  79.1px;
+    padding: 10px 10px 5px 10px;
+    border-radius: 25px;
+}
+
+.textLeft {
+    background-color: aqua;
+}
+
+.textRight{
+    background-color: plum;
+}
+
+.triAngleToLeft{
+    border-color: transparent plum transparent transparent;
+    border-width: 10px;
+    border-style: solid;
+    width: 0px;
+    height: 0px;
+    float: left;
+    margin-top:27px;
+}
+
+.triAngleToRight{
+    border-color: transparent transparent transparent aqua;
+    border-width: 10px;
+    border-style: solid;
+    width: 0px;
+    height: 0px;
+    float: right;
+    margin-top: 27px;
+}
+
+/* .textLeft, .textRight{
+    height: 60px;
+    margin: 20px 80px;
+    padding: 10px 10px 5px 10px;
+    border-radius: 10px;
+} */

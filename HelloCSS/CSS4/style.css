@@ -1,0 +1,54 @@
+#bird {
+    width: 150px;
+    height: 150px;
+    -weebkit-transfrom: scalex(-1);
+    transform: scalex();
+    -webkit-animation: 'fly' 5s linear infinite;
+    animation: 'fly' 5s linear infinite;
+    margin: 10px;
+}
+
+@keyframes fly {
+    from {transform: translate(0px, 0px)}
+    to {transform: translate(1000px, 0px);}
+}
+
+#rect {
+    width: 350px;
+    height: 200px;
+    background-color: green;
+    margin: 100px 0px 0px 100px;
+    -webkit-animation: 'colorful' 8s linear infinite ;
+    animation: 'colorful' 1s linear infinite;
+}
+
+@keyframes colorful {
+
+    0% {background-color: blueviolet;}
+    25% {background-color: crimson;}
+    50% {background-color: cyan;}
+    75% {background-color: deepskyblue;}
+    100% {background-color: orangered;}
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: -40px 0px 0px 115px;
+}
+
+img {
+    -webkit-animation: 'rotatel' 8s linear infinite ;
+    animation: 'rotaatel' 0.1s linear infinite ;
+}
+
+@-webkit-keyframes rotatel {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+@keyframes rotatel {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
